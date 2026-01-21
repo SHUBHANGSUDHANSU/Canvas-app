@@ -11,6 +11,10 @@ npm start
 
 Open `http://localhost:3000` in your browser.
 
+## Live demo
+
+https://collaborative-canvas-fo96.onrender.com/
+
 ## Project structure
 
 ```
