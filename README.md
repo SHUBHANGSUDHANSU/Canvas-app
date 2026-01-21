@@ -27,6 +27,7 @@ collaborative-canvas/
       server.js
       rooms.js
       drawing-state.js
+  render.yaml            # Render deployment blueprint
   package.json
   README.md
   ARCHITECTURE.md
@@ -37,6 +38,13 @@ collaborative-canvas/
 - Open multiple tabs/windows.
 - Optional rooms: `http://localhost:3000/?room=team-a`
 - Each room is isolated in-memory on the server.
+
+## Deploy on Render (WebSockets supported)
+
+1. Go to https://render.com and connect your GitHub account.
+2. Click “New +” → “Blueprint” and select this repo.
+3. Render will detect `render.yaml` and create the service.
+4. After deployment, open the provided Render URL in two tabs to test.
 
 ## Known limitations / bugs
 
